@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- Scripts -->
+    <script src="./app.js" defer></script>
+
+    <title>Weather App-V2</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-Container">
+        <div class="local-Info-Container">
+          <div class="icon-name-container">
+            <div class="icon"></div>
+            <div class="location-Name"></div>
+          </div>
+          <div class="desc-temp"></div>
+        </div>
+        <div class="Site-Logo">
+          <div class="site-img">
+            <i class="fa-solid fa-cloud-sun"></i>
+          </div>
+          <div class="site-Name">
+            <h1>Weather App</h1>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <p class="links" id="home">Home</p>
+            </li>
+            <li>
+              <p class="links" id="aboutMe">About Me</p>
+            </li>
+            <li class="dropdown">
+              <p class="links" id="more">More &dtrif;</p>
+              <ul class="dropwown_Menu">
+                <li>
+                  <p class="links">Something</p>
+                </li>
+                <li>
+                  <p class="links">MoreFuckingStuff</p>
+                </li>
+                <li>
+                  <p class="links">Smth</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="form" id="locationInput">
+        <div class="searchBar-Container">
+          <input type="text" id="search" placeholder="Search Location" />
+          <button type="button" id="search-Btn">
+            <i class="fa-solid fa-magnifying-glass-location"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main"></main>
+
+    <footer>
+      <small>Created By Petar Saveski</small>
+      <br />
+      <small>SEDC 2022-2023</small>
+    </footer>
+  </body>
+</html>
